@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="tf2_ros" type="static_transform_publisher" name="camera_link_broadcaster"
+      args=" 0.02241169 -0.0619934   0.0449459  0.65994235 -0.27947486  0.64114424  0.27444133 panda_link8 eye_in_hand_link" />
+</launch>
+

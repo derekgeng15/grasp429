@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="tf2_ros" type="static_transform_publisher" name="eye_to_hand_calibration"
+      args="1.470400442012521 -0.18966595369682246 0.3889068732589017 -0.1791285907585812 0.01932504994696002 0.9836345032170061 -0.0016292631543113655 panda_link0 eye_to_hand_link" />
+</launch>
